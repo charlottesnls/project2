@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="file.css" rel="stylesheet">
+    <title>Homepage</title> 
+
+    <style>
+      body{
+        background-color: #212121;
+      }
+
+     .container{
+      padding-top: 10px;
+      margin-top: 10px;
+     }
+
+    </style>
+</head>
+<body> 
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Charlotte</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CV.html">CV en ervaring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li> 
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="CV.html">CV en ervaring</a></li>
+                <li><a class="dropdown-item" href="hobbies.html">Hobbies</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+   
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">Welcome to the website!</h1>
+        <p class="lead">Mijn naam is Charlotte Snels en ik ben een 19 jarige student in de graduaatsopleiding programmeren te Turnhout.
+          Zelf woon ik ook in deze regio waardoor ik gemakkelijk met het openbaar vervoer op de campus geraak.
+          Sinds kort heb ik een grote interesse voor de IT sector en wil dan ook graag mijn toekomst hierin opbouwen.
+          Mijn passie is vooral gericht naar gaming development, vooral horror en fantasy games, en web design.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="images/MeFoto.jpg" alt="" width="560">
+      </div>
+    </div>
+
+    <section class="container">
+      <div class="row">
+          <div class="col-md-4 g-3">
+              <div class="card">
+                  <div class="card-header">
+                    CV en ervaring
+                  </div>
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Special title treatment</h5> -->
+                    <p class="card-text">Mijn opleidingen en ervaringen</p>
+                    <a href="CV.html" class="btn btn-dark">Go!</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4 g-3">
+              <div class="card">
+                  <div class="card-header">
+                    Hobbies
+                  </div>
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Special title treatment</h5> -->
+                    <p class="card-text">Kom hier meer te weten over mijn hobbies!</p>
+                    <a href="hobbies.html" class="btn btn-dark">Go!</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4 g-3">
+              <div class="card">
+                  <div class="card-header">
+                    Contact
+                  </div>
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Special title treatment</h5> -->
+                    <p class="card-text">Contacteer mij!</p>
+                    <a href="contact.html" class="btn btn-dark">Go!</a>
+                  </div>
+                </div>
+          </div>
+      </div>
+          
+
+  </section>
+
+
+  <section>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© Copyright: Snels Charlotte</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      </ul>
+    </footer>
+  </section>
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
